@@ -52,8 +52,10 @@ body{
 /*========== MAIN-HOME ==========*/
 #main-home{
     margin-top: 100px;
+    margin-bottom: 30px;
     background: url('images/mallbg1.jfif');
     background-size: cover;
+    background-repeat: repeat-x;
 }
 
 #sale-content{
@@ -344,6 +346,7 @@ textarea{
 /*========== MOVIES ==========*/
 #movies {
     margin-top: 100px;
+    margin-bottom: 30px;
     background: url('images/moviebg.jfif');
     background-size: cover;
     background-repeat: repeat-x;
@@ -466,11 +469,11 @@ a.info-box-movies{
 
 /*========== CINEMA ==========*/
 #cinema{
-    margin-top: 100px;
     background-color: black;
 }
 
 #cinema img{
+    margin-top: 100px;
     padding-top: 20px;
     height: 200px;
     display: block;
